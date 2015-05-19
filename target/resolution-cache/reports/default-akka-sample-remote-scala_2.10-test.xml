@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="akka-sample-remote-scala_2.10"
+		revision="2.3.9"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20150509085118"/>
+	<dependencies>
+		<module organisation="com.typesafe.akka" name="akka-http-scala-experimental_2.10">
+			<revision name="1.0-RC2" status="release" pubdate="20150430145303" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2788" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe.akka\akka-http-scala-experimental_2.10\ivy-1.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-scala-experimental_2.10/1.0-RC2/akka-http-scala-experimental_2.10-1.0-RC2.pom"/>
+				<caller organisation="default" name="akka-sample-remote-scala_2.10" conf="test, compile, runtime" rev="1.0-RC2" rev-constraint-default="1.0-RC2" rev-constraint-dynamic="1.0-RC2" callerrev="2.3.9"/>
+				<artifacts>
+					<artifact name="akka-http-scala-experimental_2.10" type="jar" ext="jar" status="no" details="" size="1552982" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe.akka\akka-http-scala-experimental_2.10\jars\akka-http-scala-experimental_2.10-1.0-RC2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-scala-experimental_2.10/1.0-RC2/akka-http-scala-experimental_2.10-1.0-RC2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-core-experimental_2.10">
+			<revision name="1.0-RC2" status="release" pubdate="20150430145212" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="12">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3744" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe.akka\akka-http-core-experimental_2.10\ivy-1.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core-experimental_2.10/1.0-RC2/akka-http-core-experimental_2.10-1.0-RC2.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-scala-experimental_2.10" conf="default, compile, runtime, master" rev="1.0-RC2" rev-constraint-default="1.0-RC2" rev-constraint-dynamic="1.0-RC2" callerrev="1.0-RC2"/>
+				<caller organisation="default" name="akka-sample-remote-scala_2.10" conf="test, compile, runtime" rev="1.0-M5" rev-constraint-default="1.0-M5" rev-constraint-dynamic="1.0-M5" callerrev="2.3.9"/>
+				<artifacts>
+					<artifact name="akka-http-core-experimental_2.10" type="jar" ext="jar" status="no" details="" size="2742706" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe.akka\akka-http-core-experimental_2.10\jars\akka-http-core-experimental_2.10-1.0-RC2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core-experimental_2.10/1.0-RC2/akka-http-core-experimental_2.10-1.0-RC2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.0-M5" status="release" pubdate="20150327173643" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="-1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3536" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe.akka\akka-http-core-experimental_2.10\ivy-1.0-M5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core-experimental_2.10/1.0-M5/akka-http-core-experimental_2.10-1.0-M5.pom"/>
+				<evicted-by rev="1.0-RC2"/>
+				<caller organisation="default" name="akka-sample-remote-scala_2.10" conf="test, compile, runtime" rev="1.0-M5" rev-constraint-default="1.0-M5" rev-constraint-dynamic="1.0-M5" callerrev="2.3.9"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream-experimental_2.10">
+			<revision name="1.0-RC2" status="release" pubdate="20150430145127" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, master(*), default(compile)" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3606" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe.akka\akka-stream-experimental_2.10\ivy-1.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-experimental_2.10/1.0-RC2/akka-stream-experimental_2.10-1.0-RC2.pom"/>
+				<caller organisation="default" name="akka-sample-remote-scala_2.10" conf="test, compile, runtime" rev="1.0-M5" rev-constraint-default="1.0-M5" rev-constraint-dynamic="1.0-M5" callerrev="2.3.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core-experimental_2.10" conf="default, compile, runtime, master" rev="1.0-M5" rev-constraint-default="1.0-M5" rev-constraint-dynamic="1.0-M5" callerrev="1.0-M5"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core-experimental_2.10" conf="compile, runtime" rev="1.0-RC2" rev-constraint-default="1.0-RC2" rev-constraint-dynamic="1.0-RC2" callerrev="1.0-RC2"/>
+				<artifacts>
+					<artifact name="akka-stream-experimental_2.10" type="jar" ext="jar" status="no" details="" size="4650170" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe.akka\akka-stream-experimental_2.10\jars\akka-stream-experimental_2.10-1.0-RC2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-experimental_2.10/1.0-RC2/akka-stream-experimental_2.10-1.0-RC2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.0-M5" status="release" pubdate="20150327173531" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master" position="-1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3578" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe.akka\akka-stream-experimental_2.10\ivy-1.0-M5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-experimental_2.10/1.0-M5/akka-stream-experimental_2.10-1.0-M5.pom"/>
+				<evicted-by rev="1.0-RC2"/>
+				<caller organisation="default" name="akka-sample-remote-scala_2.10" conf="test, compile, runtime" rev="1.0-M5" rev-constraint-default="1.0-M5" rev-constraint-dynamic="1.0-M5" callerrev="2.3.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core-experimental_2.10" conf="default, compile, runtime, master" rev="1.0-M5" rev-constraint-default="1.0-M5" rev-constraint-dynamic="1.0-M5" callerrev="1.0-M5"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.0" status="release" pubdate="20150429191454" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, master(*)" position="15">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2426" time="0" location="C:\Users\User1\.ivy2\cache\org.reactivestreams\reactive-streams\ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-experimental_2.10" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0-RC2"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-experimental_2.10" conf="default, compile, runtime, master" rev="1.0.0.RC3" rev-constraint-default="1.0.0.RC3" rev-constraint-dynamic="1.0.0.RC3" callerrev="1.0-M5"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="jar" ext="jar" status="no" details="" size="2042" time="0" location="C:\Users\User1\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.0.0.RC3" status="release" pubdate="20150216222054" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2430" time="0" location="C:\Users\User1\.ivy2\cache\org.reactivestreams\reactive-streams\ivy-1.0.0.RC3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0.RC3/reactive-streams-1.0.0.RC3.pom"/>
+				<evicted-by rev="1.0.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-experimental_2.10" conf="default, compile, runtime, master" rev="1.0.0.RC3" rev-constraint-default="1.0.0.RC3" rev-constraint-dynamic="1.0.0.RC3" callerrev="1.0-M5"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-parsing-experimental_2.10">
+			<revision name="1.0-RC2" status="release" pubdate="20150430145110" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, master(*)" position="13">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2915" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe.akka\akka-parsing-experimental_2.10\ivy-1.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing-experimental_2.10/1.0-RC2/akka-parsing-experimental_2.10-1.0-RC2.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core-experimental_2.10" conf="default, compile, runtime, master" rev="1.0-M5" rev-constraint-default="1.0-M5" rev-constraint-dynamic="1.0-M5" callerrev="1.0-M5"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core-experimental_2.10" conf="compile, runtime" rev="1.0-RC2" rev-constraint-default="1.0-RC2" rev-constraint-dynamic="1.0-RC2" callerrev="1.0-RC2"/>
+				<artifacts>
+					<artifact name="akka-parsing-experimental_2.10" type="jar" ext="jar" status="no" details="" size="582249" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe.akka\akka-parsing-experimental_2.10\jars\akka-parsing-experimental_2.10-1.0-RC2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing-experimental_2.10/1.0-RC2/akka-parsing-experimental_2.10-1.0-RC2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.0-M5" status="release" pubdate="20150327173551" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2888" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe.akka\akka-parsing-experimental_2.10\ivy-1.0-M5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing-experimental_2.10/1.0-M5/akka-parsing-experimental_2.10-1.0-M5.pom"/>
+				<evicted-by rev="1.0-RC2"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core-experimental_2.10" conf="default, compile, runtime, master" rev="1.0-M5" rev-constraint-default="1.0-M5" rev-constraint-dynamic="1.0-M5" callerrev="1.0-M5"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.5" status="release" pubdate="20150227045430" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, master(*), default(compile)" position="11">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2701" time="0" location="C:\Users\User1\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-parsing-experimental_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.0-M5"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-experimental_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.0-M5"/>
+				<caller organisation="org.zeromq" name="zeromq-scala-binding_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.0.7"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.10.4"/>
+				<caller organisation="default" name="akka-sample-remote-scala_2.10" conf="test, compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.3.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-scala-experimental_2.10" conf="default, compile, runtime, master" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="1.0-RC2"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-experimental_2.10" conf="compile, runtime" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="1.0-RC2"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.3.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.3.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-zeromq_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.3.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core-experimental_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.0-M5"/>
+				<caller organisation="org.scalamacros" name="quasiquotes_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.0.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core-experimental_2.10" conf="compile, runtime" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="1.0-RC2"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.3.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-parsing-experimental_2.10" conf="compile, runtime" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="1.0-RC2"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7130772" time="0" location="C:\Users\User1\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.10.4" status="release" pubdate="20140319014629" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="-1">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2517" time="0" location="C:\Users\User1\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom"/>
+				<evicted-by rev="2.10.5"/>
+				<caller organisation="com.typesafe.akka" name="akka-parsing-experimental_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.0-M5"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.3.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-experimental_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.0-M5"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.3.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-zeromq_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.3.10"/>
+				<caller organisation="org.zeromq" name="zeromq-scala-binding_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.0.7"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.10.4"/>
+				<caller organisation="default" name="akka-sample-remote-scala_2.10" conf="test, compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.3.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core-experimental_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.0-M5"/>
+				<caller organisation="org.scalamacros" name="quasiquotes_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.0.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.3.10"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.10.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.10.4"/>
+				<caller organisation="org.zeromq" name="zeromq-scala-binding_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.0.7"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalamacros" name="quasiquotes_2.10">
+			<revision name="2.0.1" status="release" pubdate="20150303135226" resolver="sbt-chain" artresolver="sbt-chain" evicted="transitive" evicted-reason="" homepage="https://github.com/scalamacros/paradise" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html"/>
+				<metadata-artifact status="no" details="" size="2763" time="0" location="C:\Users\User1\.ivy2\cache\org.scalamacros\quasiquotes_2.10\ivy-2.0.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-parsing-experimental_2.10" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0-M5"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.4" status="release" pubdate="20140319014707" resolver="sbt-chain" artresolver="sbt-chain" evicted="transitive" evicted-reason="" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2680" time="0" location="C:\Users\User1\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-parsing-experimental_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.0-M5"/>
+				<caller organisation="org.scalamacros" name="quasiquotes_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-zeromq_2.10">
+			<revision name="2.3.10" status="release" pubdate="20150423085322" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3387" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe.akka\akka-zeromq_2.10\ivy-2.3.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-zeromq_2.10/2.3.10/akka-zeromq_2.10-2.3.10.pom"/>
+				<caller organisation="default" name="akka-sample-remote-scala_2.10" conf="test, compile, runtime" rev="2.3.10" rev-constraint-default="2.3.10" rev-constraint-dynamic="2.3.10" callerrev="2.3.9"/>
+				<artifacts>
+					<artifact name="akka-zeromq_2.10" type="jar" ext="jar" status="no" details="" size="166298" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe.akka\akka-zeromq_2.10\jars\akka-zeromq_2.10-2.3.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-zeromq_2.10/2.3.10/akka-zeromq_2.10-2.3.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.zeromq" name="zeromq-scala-binding_2.10">
+			<revision name="0.0.7" status="release" pubdate="20121221143908" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/valotrading/zeromq-scala-binding" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3047" time="0" location="C:\Users\User1\.ivy2\cache\org.zeromq\zeromq-scala-binding_2.10\ivy-0.0.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/zeromq/zeromq-scala-binding_2.10/0.0.7/zeromq-scala-binding_2.10-0.0.7.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-zeromq_2.10" conf="default, compile, runtime, master" rev="0.0.7" rev-constraint-default="0.0.7" rev-constraint-dynamic="0.0.7" callerrev="2.3.10"/>
+				<caller organisation="default" name="akka-sample-remote-scala_2.10" conf="test, compile, runtime" rev="0.0.7" rev-constraint-default="0.0.7" rev-constraint-dynamic="0.0.7" callerrev="2.3.9"/>
+				<artifacts>
+					<artifact name="zeromq-scala-binding_2.10" type="jar" ext="jar" status="no" details="" size="19299" time="0" location="C:\Users\User1\.ivy2\cache\org.zeromq\zeromq-scala-binding_2.10\jars\zeromq-scala-binding_2.10-0.0.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/zeromq/zeromq-scala-binding_2.10/0.0.7/zeromq-scala-binding_2.10-0.0.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.jnr" name="jnr-constants">
+			<revision name="0.8.2" status="release" pubdate="20110806060007" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jnr/jnr-constants" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3148" time="0" location="C:\Users\User1\.ivy2\cache\com.github.jnr\jnr-constants\ivy-0.8.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.8.2/jnr-constants-0.8.2.pom"/>
+				<caller organisation="org.zeromq" name="zeromq-scala-binding_2.10" conf="compile, runtime" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="0.0.7"/>
+				<artifacts>
+					<artifact name="jnr-constants" type="jar" ext="jar" status="no" details="" size="526303" time="0" location="C:\Users\User1\.ivy2\cache\com.github.jnr\jnr-constants\jars\jnr-constants-0.8.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.8.2/jnr-constants-0.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.java.dev.jna" name="jna">
+			<revision name="3.0.9" status="release" pubdate="20100520124538" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<metadata-artifact status="no" details="" size="2322" time="0" location="C:\Users\User1\.ivy2\cache\net.java.dev.jna\jna\ivy-3.0.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.0.9/jna-3.0.9.pom"/>
+				<caller organisation="org.zeromq" name="zeromq-scala-binding_2.10" conf="compile, runtime" rev="3.0.9" rev-constraint-default="3.0.9" rev-constraint-dynamic="3.0.9" callerrev="0.0.7"/>
+				<artifacts>
+					<artifact name="jna" type="jar" ext="jar" status="no" details="" size="795871" time="0" location="C:\Users\User1\.ivy2\cache\net.java.dev.jna\jna\jars\jna-3.0.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.0.9/jna-3.0.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.10">
+			<revision name="2.3.10" status="release" pubdate="20150423085135" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, master(*)" position="6">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2700" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\ivy-2.3.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.10/akka-actor_2.10-2.3.10.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-experimental_2.10" conf="compile, runtime" rev="2.3.10" rev-constraint-default="2.3.10" rev-constraint-dynamic="2.3.10" callerrev="1.0-RC2"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-experimental_2.10" conf="default, compile, runtime, master" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="1.0-M5"/>
+				<caller organisation="com.typesafe.akka" name="akka-zeromq_2.10" conf="default, compile, runtime, master" rev="2.3.10" rev-constraint-default="2.3.10" rev-constraint-dynamic="2.3.10" callerrev="2.3.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="default, compile, runtime, master" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="2.3.9"/>
+				<artifacts>
+					<artifact name="akka-actor_2.10" type="jar" ext="jar" status="no" details="" size="2605169" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.10/akka-actor_2.10-2.3.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.3.9" status="release" pubdate="20150120090859" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2687" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\ivy-2.3.9.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.9/akka-actor_2.10-2.3.9.pom"/>
+				<evicted-by rev="2.3.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-experimental_2.10" conf="default, compile, runtime, master" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="1.0-M5"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="default, compile, runtime, master" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="2.3.9"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-remote_2.10">
+			<revision name="2.3.9" status="release" pubdate="20150120091105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3811" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe.akka\akka-remote_2.10\ivy-2.3.9.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.3.9/akka-remote_2.10-2.3.9.pom"/>
+				<caller organisation="default" name="akka-sample-remote-scala_2.10" conf="test, compile, runtime" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="2.3.9"/>
+				<artifacts>
+					<artifact name="akka-remote_2.10" type="jar" ext="jar" status="no" details="" size="1347607" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe.akka\akka-remote_2.10\jars\akka-remote_2.10-2.3.9.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.3.9/akka-remote_2.10-2.3.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.uncommons.maths" name="uncommons-maths">
+			<revision name="1.2.2a" status="release" pubdate="20110408175605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maths.uncommons.org/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="4">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2771" time="0" location="C:\Users\User1\.ivy2\cache\org.uncommons.maths\uncommons-maths\ivy-1.2.2a.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="default, compile, runtime, master" rev="1.2.2a" rev-constraint-default="1.2.2a" rev-constraint-dynamic="1.2.2a" callerrev="2.3.9"/>
+				<artifacts>
+					<artifact name="uncommons-maths" type="jar" ext="jar" status="no" details="" size="49019" time="0" location="C:\Users\User1\.ivy2\cache\org.uncommons.maths\uncommons-maths\jars\uncommons-maths-1.2.2a.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.8.0.Final" status="release" pubdate="20131107132312" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6581" time="0" location="C:\Users\User1\.ivy2\cache\io.netty\netty\ivy-3.8.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="default, compile, runtime, master" rev="3.8.0.Final" rev-constraint-default="3.8.0.Final" rev-constraint-dynamic="3.8.0.Final" callerrev="2.3.9"/>
+				<artifacts>
+					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="1230201" time="0" location="C:\Users\User1\.ivy2\cache\io.netty\netty\bundles\netty-3.8.0.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="2.5.0" status="release" pubdate="20130308041811" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3048" time="0" location="C:\Users\User1\.ivy2\cache\com.google.protobuf\protobuf-java\ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="default, compile, runtime, master" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="2.3.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-zeromq_2.10" conf="default, compile, runtime, master" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="2.3.10"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="bundle" ext="jar" status="no" details="" size="533455" time="0" location="C:\Users\User1\.ivy2\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-2.5.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.2.1" status="release" pubdate="20140502185416" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2768" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe\config\ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="2.3.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="2.3.10"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="219554" time="0" location="C:\Users\User1\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

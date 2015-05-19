@@ -1,0 +1,6 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(D:\Odesk\tcpProtocol\akka-sample-remote-scala\src\main\resources\.DS_Store,D:\Odesk\tcpProtocol\akka-sample-remote-scala\target\scala-2.10\classes\.DS_Store)[0m
+[0m[[0mdebug[0m] [0m	(D:\Odesk\tcpProtocol\akka-sample-remote-scala\src\main\resources\calculator.conf,D:\Odesk\tcpProtocol\akka-sample-remote-scala\target\scala-2.10\classes\calculator.conf)[0m
+[0m[[0mdebug[0m] [0m	(D:\Odesk\tcpProtocol\akka-sample-remote-scala\src\main\resources\common.conf,D:\Odesk\tcpProtocol\akka-sample-remote-scala\target\scala-2.10\classes\common.conf)[0m
+[0m[[0mdebug[0m] [0m	(D:\Odesk\tcpProtocol\akka-sample-remote-scala\src\main\resources\remotecreation.conf,D:\Odesk\tcpProtocol\akka-sample-remote-scala\target\scala-2.10\classes\remotecreation.conf)[0m
+[0m[[0mdebug[0m] [0m	(D:\Odesk\tcpProtocol\akka-sample-remote-scala\src\main\resources\remotelookup.conf,D:\Odesk\tcpProtocol\akka-sample-remote-scala\target\scala-2.10\classes\remotelookup.conf)[0m
